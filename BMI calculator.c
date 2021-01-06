@@ -1,12 +1,12 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 int main() {
 	float height, weight;
 	float BMI;
-	printf("신장 입력 (m) : ");
+	printf("Enter your height. (m) : ");
 	scanf("%f", &height);
-	printf("몸무게 입력 (kg) : ");
+	printf("Enter your weight. (kg) : ");
 	scanf("%f", &weight);
 	BMI = weight / (height * height);
-	printf("당신의 BMI지수는 %.3f입니다\n.", BMI);
+	printf("Your BMI is %.3f\n", BMI);
 	return 0;
 }
